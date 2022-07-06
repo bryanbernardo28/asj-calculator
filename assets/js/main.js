@@ -66,6 +66,17 @@ function computeTargets(){
     $('#input-fourteen-pips').val((timesLotSize*14).toFixed(1)).focus();
     $('#input-fifteen-pips').val((timesLotSize*15).toFixed(1)).focus();
 
+    $('#input-sixwocomms-pips').val(((timesLotSize*6).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-sevenwocomms-pips').val(((timesLotSize*7).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-eightwocomms-pips').val(((timesLotSize*8).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-ninewocomms-pips').val(((timesLotSize*9).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-tenwocomms-pips').val(((timesLotSize*10).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-elevenwocomms-pips').val(((timesLotSize*11).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-twelvewocomms-pips').val(((timesLotSize*12).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-thirteenwocomms-pips').val(((timesLotSize*13).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-fourteenwocomms-pips').val(((timesLotSize*14).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-fifteenwocomms-pips').val(((timesLotSize*15).toFixed(1)-comms).toFixed(1)).focus();
+
     $('#input-sixfive-pips').val((timesLotSize*6.5).toFixed(1)).focus();
     $('#input-sevenfive-pips').val((timesLotSize*7.5).toFixed(1)).focus();
     $('#input-eightfive-pips').val((timesLotSize*8.5).toFixed(1)).focus();
@@ -76,6 +87,17 @@ function computeTargets(){
     $('#input-thirteenfive-pips').val((timesLotSize*13.5).toFixed(1)).focus();
     $('#input-fourteenfive-pips').val((timesLotSize*14.5).toFixed(1)).focus();
     $('#input-fifteenfive-pips').val((timesLotSize*15.5).toFixed(1)).focus();
+
+    $('#input-sixfivewocomms-pips').val(((timesLotSize*6.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-sevenfivewocomms-pips').val(((timesLotSize*7.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-eightfivewocomms-pips').val(((timesLotSize*8.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-ninefivewocomms-pips').val(((timesLotSize*9.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-tenfivewocomms-pips').val(((timesLotSize*10.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-elevenfivewocomms-pips').val(((timesLotSize*11.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-twelvefivewocomms-pips').val(((timesLotSize*12.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-thirteenfivewocomms-pips').val(((timesLotSize*13.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-fourteenfivewocomms-pips').val(((timesLotSize*14.5).toFixed(1)-comms).toFixed(1)).focus();
+    $('#input-fifteenfivewocomms-pips').val(((timesLotSize*15.5).toFixed(1)-comms).toFixed(1)).focus();
 
     $("#lot-size").val(computeLotSize).focus();
 }
