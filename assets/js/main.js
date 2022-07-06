@@ -125,6 +125,29 @@ function resetComputeTargets(){
     $('#input-twelvefive-pips').val("");
     $('#input-thirteenfive-pips').val("");
     $('#input-fourteenfive-pips').val("");
-    $('#input-fifteenfivepips').val("");
+    $('#input-fifteenfive-pips').val("");
+
+    $('#input-sixwocomms-pips').val("");
+    $('#input-sevenwocomms-pips').val("");
+    $('#input-eightwocomms-pips').val("");
+    $('#input-ninewocomms-pips').val("");
+    $('#input-tenwocomms-pips').val("");
+    $('#input-elevenwocomms-pips').val("");
+    $('#input-twelvewocomms-pips').val("");
+    $('#input-thirteenwocomms-pips').val("");
+    $('#input-fourteenwocomms-pips').val("");
+    $('#input-fifteenwocomms-pips').val("");
+
+    $('#input-sixfivewocomms-pips').val("");
+    $('#input-sevenfivewocomms-pips').val("");
+    $('#input-eightfivewocomms-pips').val("");
+    $('#input-ninefivewocomms-pips').val("");
+    $('#input-tenfivewocomms-pips').val("");
+    $('#input-elevenfivewocomms-pips').val("");
+    $('#input-twelvefivewocomms-pips').val("");
+    $('#input-thirteenfivewocomms-pips').val("");
+    $('#input-fourteenfivewocomms-pips').val("");
+    $('#input-fifteenfivewocomms-pips').val("");
+
     $("#commission").val("");
 }
